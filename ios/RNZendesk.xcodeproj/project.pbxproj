@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		9BEDAFDE208E90CB000BFECF /* RNZendesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEDAFDD208E90CB000BFECF /* RNZendesk.swift */; };
 		9BEDAFF4208E954E000BFECF /* RNZendeskBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEDAFF3208E954E000BFECF /* RNZendeskBridge.m */; };
-		B6A7C26721C143B400921846 /* ZendeskProviderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C26321C143B200921846 /* ZendeskProviderSDK.framework */; };
-		B6A7C26821C143B400921846 /* ZendeskCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C26421C143B200921846 /* ZendeskCoreSDK.framework */; };
-		B6A7C26921C143B400921846 /* ZendeskSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C26521C143B300921846 /* ZendeskSDKStrings.bundle */; };
-		B6A7C26A21C143B400921846 /* ZendeskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C26621C143B400921846 /* ZendeskSDK.framework */; };
-		B6A7C26B21C143BB00921846 /* ZendeskCoreSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C26421C143B200921846 /* ZendeskCoreSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B6A7C26C21C143BB00921846 /* ZendeskProviderSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C26321C143B200921846 /* ZendeskProviderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B6A7C26D21C143BB00921846 /* ZendeskSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C26621C143B400921846 /* ZendeskSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6A7C27321C1485B00921846 /* ZendeskCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C26F21C1485900921846 /* ZendeskCoreSDK.framework */; };
+		B6A7C27421C1485B00921846 /* ZendeskProviderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C27021C1485A00921846 /* ZendeskProviderSDK.framework */; };
+		B6A7C27521C1485B00921846 /* ZendeskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C27121C1485B00921846 /* ZendeskSDK.framework */; };
+		B6A7C27621C1485B00921846 /* ZendeskSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C27221C1485B00921846 /* ZendeskSDKStrings.bundle */; };
+		B6A7C27721C1486300921846 /* ZendeskCoreSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C26F21C1485900921846 /* ZendeskCoreSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6A7C27821C1486300921846 /* ZendeskProviderSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C27021C1485A00921846 /* ZendeskProviderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6A7C27921C1486300921846 /* ZendeskSDK.framework in Embedded Binaries */ = {isa = PBXBuildFile; fileRef = B6A7C27121C1485B00921846 /* ZendeskSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +25,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B6A7C26B21C143BB00921846 /* ZendeskCoreSDK.framework in Embedded Binaries */,
-				B6A7C26C21C143BB00921846 /* ZendeskProviderSDK.framework in Embedded Binaries */,
-				B6A7C26D21C143BB00921846 /* ZendeskSDK.framework in Embedded Binaries */,
+				B6A7C27721C1486300921846 /* ZendeskCoreSDK.framework in Embedded Binaries */,
+				B6A7C27821C1486300921846 /* ZendeskProviderSDK.framework in Embedded Binaries */,
+				B6A7C27921C1486300921846 /* ZendeskSDK.framework in Embedded Binaries */,
 			);
 			name = "Embedded Binaries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,10 +50,10 @@
 		9BEDAFF1208E954D000BFECF /* RNZendesk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNZendesk-Bridging-Header.h"; sourceTree = "<group>"; };
 		9BEDAFF2208E954E000BFECF /* RNZendeskBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNZendeskBridge.h; sourceTree = "<group>"; };
 		9BEDAFF3208E954E000BFECF /* RNZendeskBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNZendeskBridge.m; sourceTree = "<group>"; };
-		B6A7C26321C143B200921846 /* ZendeskProviderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskProviderSDK.framework; sourceTree = "<group>"; };
-		B6A7C26421C143B200921846 /* ZendeskCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskCoreSDK.framework; sourceTree = "<group>"; };
-		B6A7C26521C143B300921846 /* ZendeskSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZendeskSDKStrings.bundle; sourceTree = "<group>"; };
-		B6A7C26621C143B400921846 /* ZendeskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskSDK.framework; sourceTree = "<group>"; };
+		B6A7C26F21C1485900921846 /* ZendeskCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskCoreSDK.framework; sourceTree = "<group>"; };
+		B6A7C27021C1485A00921846 /* ZendeskProviderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskProviderSDK.framework; sourceTree = "<group>"; };
+		B6A7C27121C1485B00921846 /* ZendeskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskSDK.framework; sourceTree = "<group>"; };
+		B6A7C27221C1485B00921846 /* ZendeskSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZendeskSDKStrings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A7C26A21C143B400921846 /* ZendeskSDK.framework in Frameworks */,
-				B6A7C26721C143B400921846 /* ZendeskProviderSDK.framework in Frameworks */,
-				B6A7C26821C143B400921846 /* ZendeskCoreSDK.framework in Frameworks */,
+				B6A7C27521C1485B00921846 /* ZendeskSDK.framework in Frameworks */,
+				B6A7C27321C1485B00921846 /* ZendeskCoreSDK.framework in Frameworks */,
+				B6A7C27421C1485B00921846 /* ZendeskProviderSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +101,10 @@
 		9BEDAFE4208E9102000BFECF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6A7C26421C143B200921846 /* ZendeskCoreSDK.framework */,
-				B6A7C26321C143B200921846 /* ZendeskProviderSDK.framework */,
-				B6A7C26621C143B400921846 /* ZendeskSDK.framework */,
-				B6A7C26521C143B300921846 /* ZendeskSDKStrings.bundle */,
+				B6A7C26F21C1485900921846 /* ZendeskCoreSDK.framework */,
+				B6A7C27021C1485A00921846 /* ZendeskProviderSDK.framework */,
+				B6A7C27121C1485B00921846 /* ZendeskSDK.framework */,
+				B6A7C27221C1485B00921846 /* ZendeskSDKStrings.bundle */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A7C26921C143B400921846 /* ZendeskSDKStrings.bundle in Resources */,
+				B6A7C27621C1485B00921846 /* ZendeskSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
